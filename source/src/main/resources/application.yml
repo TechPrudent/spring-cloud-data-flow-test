@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        sample-source:
+          destination: testtock
+logging:
+  level:
+    root: trace

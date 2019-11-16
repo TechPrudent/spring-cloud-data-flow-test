@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: batch-test
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=scdf
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    

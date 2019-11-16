@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        sample-sink:
+          destination: xformed
+logging:
+  level:
+    root: trace

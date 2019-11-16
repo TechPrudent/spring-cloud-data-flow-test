@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: testtock
+        output:
+          destination: xformed
+logging:
+  level:
+    root: trace
